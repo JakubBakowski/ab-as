@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
+  pathPrefix:'AB-AS',
   siteMetadata: {
     title: `AB-AS`,
     siteUrl: `https://www.yourdomain.tld`
@@ -28,7 +29,7 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },]
 };
 
 export default config;
