@@ -1,8 +1,9 @@
 import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./../styles/NavBar.css";
 import "./../styles/layout.module.css";
+
 const NavBar = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const NavBar = () => {
               </p>
             </div>
             <div>
-              <FontAwesomeIcon icon="bars" />
+              <FontAwesomeIcon icon={faBars} />
             </div>
           </div>
         </div>
